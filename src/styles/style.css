@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Manrope", sans-serif;
+  background-color: hsl(218, 23%, 16%);
+  height: 100vh;
+  padding-inline: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 28px;
+  max-width: 580px;
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 10px;
+  padding: 30px 20px 58px;
+  word-wrap: break-word;
+  text-align: center;
+  position: relative;
+}
+.container .advice-id {
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: rgb(82, 255, 168);
+}
+.container .advice-content {
+  font-size: 28px;
+  font-weight: 800;
+  color: hsl(193, 38%, 86%);
+  width: 100%;
+}
+.container .dice-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  background-color: rgb(82, 255, 168);
+  border-radius: 100%;
+  position: absolute;
+  bottom: -30px;
+  cursor: pointer;
+  border: none;
+}
+.container .dice-button:hover {
+  box-shadow: 2px 0px 30px 3px rgb(82, 255, 168);
+  -webkit-box-shadow: 2px 0px 30px 3px rgb(82, 255, 168);
+  -moz-box-shadow: 2px 0px 30px 3px rgb(82, 255, 168);
+}/*# sourceMappingURL=style.css.map */
