@@ -13,8 +13,6 @@ function getAdvice(data) {
     });
 }
 
-getAdvice();
-
 diceButton.addEventListener('click', () => {
   getAdvice();
 });
