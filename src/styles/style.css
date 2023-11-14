@@ -10,16 +10,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   font-family: "Manrope", sans-serif;
   background-color: hsl(218, 23%, 16%);
   height: 100vh;
   padding-inline: 20px;
+  position: relative;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   flex-direction: column;
   row-gap: 28px;
   max-width: 580px;
@@ -48,6 +51,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 64px;
   height: 64px;
   background-color: rgb(82, 255, 168);
@@ -61,4 +65,17 @@ body {
   box-shadow: 2px 0px 30px 3px rgb(82, 255, 168);
   -webkit-box-shadow: 2px 0px 30px 3px rgb(82, 255, 168);
   -moz-box-shadow: 2px 0px 30px 3px rgb(82, 255, 168);
+}
+
+.footer-content {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+}
+.footer-content span {
+  color: hsl(193, 38%, 86%);
+}
+.footer-content a {
+  color: rgb(82, 255, 168);
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
