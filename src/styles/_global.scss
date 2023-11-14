@@ -16,6 +16,7 @@ $dark-blue: hsl(218, 23%, 16%);
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 * {
@@ -31,4 +32,6 @@ body {
 
   height: 100vh;
   padding-inline: 20px;
+
+  position: relative;
 }
