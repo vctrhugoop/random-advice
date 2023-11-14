@@ -56,3 +56,19 @@
     }
   }
 }
+
+.footer-content {
+  position: absolute;
+  bottom: 0;
+
+  margin-bottom: 20px;
+
+  span {
+    color: global.$light-Cyan;
+  }
+
+  a {
+    color: global.$neon-green;
+    text-decoration: none;
+  }
+}
